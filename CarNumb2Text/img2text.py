@@ -15,7 +15,7 @@ api.SetPageSegMode(tesseract.PSM_AUTO)
 #result = tesseract.ProcessPagesWrapper(mImgFile,api)
 #print result
 #print type(result)
-
+'''
 pygame.init()
 pygame.camera.init()
 screen = pygame.display.set_mode((640,480),0)
@@ -42,7 +42,7 @@ while 1:
             if event.key == K_ESCAPE:
                 sys.exit()
     i=i+1
-
+'''
 im=Image.open("5.jpg")
 #im=im.rotate(1)
 im.save("e.jpg")
